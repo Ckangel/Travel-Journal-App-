@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="builder-model2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/widgets/cmdline-tools/latest/lib/build-system/builder-model/builder-model.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

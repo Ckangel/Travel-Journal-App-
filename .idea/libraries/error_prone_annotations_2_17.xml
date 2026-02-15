@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="error_prone_annotations-2.17">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/widgets/cmdline-tools/latest/lib/external/com/google/errorprone/error_prone_annotations/2.16/error_prone_annotations-2.16.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

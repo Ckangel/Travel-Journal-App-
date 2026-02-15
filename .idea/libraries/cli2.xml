@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cli2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/widgets/cmdline-tools/latest/lib/lint/cli/cli.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

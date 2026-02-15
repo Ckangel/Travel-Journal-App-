@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="tools.ddmlib2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/widgets/cmdline-tools/latest/lib/ddmlib/tools.ddmlib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

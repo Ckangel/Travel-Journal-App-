@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="libprofgen2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/android/cmdline-tools/latest/lib/profgen/profgen/libprofgen.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

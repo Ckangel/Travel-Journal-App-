@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="tools.analytics-tracker2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/widgets/cmdline-tools/latest/lib/analytics-library/tracker/tools.analytics-tracker.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

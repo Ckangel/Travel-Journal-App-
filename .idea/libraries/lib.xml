@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/android/cmdline-tools/latest/lib/r8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/android/cmdline-tools/latest/lib/sdkmanager-classpath.jar!/" />
+      <root url="jar://$PROJECT_DIR$/android/cmdline-tools/latest/lib/screenshot2-classpath.jar!/" />
+      <root url="jar://$PROJECT_DIR$/android/cmdline-tools/latest/lib/apkanalyzer-classpath.jar!/" />
+      <root url="jar://$PROJECT_DIR$/android/cmdline-tools/latest/lib/lint-classpath.jar!/" />
+      <root url="jar://$PROJECT_DIR$/android/cmdline-tools/latest/lib/retrace-classpath.jar!/" />
+      <root url="jar://$PROJECT_DIR$/android/cmdline-tools/latest/lib/resourceshrinker-classpath.jar!/" />
+      <root url="jar://$PROJECT_DIR$/android/cmdline-tools/latest/lib/profgen-classpath.jar!/" />
+      <root url="jar://$PROJECT_DIR$/android/cmdline-tools/latest/lib/avdmanager-classpath.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

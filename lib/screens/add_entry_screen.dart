@@ -1,4 +1,22 @@
 import 'package:flutter/material.dart';
+import 'package:image_picker/image_picker.dart';
+import 'dart:io';
+
+File? _image;
+
+Future<void> _pickImage() async {
+  final pickedFile = await ImagePicker().pickImage(source: ImageSource.camera);
+  setState(() {
+    if (pickedFile != null) {
+      _image = File(pickedFile.path);
+    }
+  });
+}
+
+// Inside AddEntryScreen build:
+_image == null
+  ? Text("No image selected")
+  : Image.file(_image!)
 
 class AddEntryScreen extends StatefulWidget {
   @override

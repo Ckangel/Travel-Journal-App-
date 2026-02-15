@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="libshrinker2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/widgets/cmdline-tools/latest/lib/build-system/shrinker/libshrinker.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

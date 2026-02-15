@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="tools.common2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/android/cmdline-tools/latest/lib/common/tools.common.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

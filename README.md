@@ -11,12 +11,14 @@ The purpose of creating this app is to strengthen my skills in mobile developmen
 # Development Environment
 
 The app was developed using:
+
 - **Flutter SDK** for cross-platform mobile development
 - **Dart** programming language
 - **Android Studio** as the primary IDE
 - **Emulator** for testing, with optional deployment to a physical Android device
 
 Libraries and packages used:
+
 - `image_picker` for camera/photo integration
 - `geolocator` for location services
 - `sqflite` for local SQLite database storage
@@ -24,16 +26,16 @@ Libraries and packages used:
 
 # Useful Websites
 
-* [Flutter Documentation](https://docs.flutter.dev/)
-* [Dart Language Tour](https://dart.dev/guides/language/language-tour)
-* [Flutter SQLite Tutorial](https://flutter.dev/docs/cookbook/persistence/sqlite)
-* [Geolocator Plugin](https://pub.dev/packages/geolocator)
-* [Image Picker Plugin](https://pub.dev/packages/image_picker)
+- [Flutter Documentation](https://docs.flutter.dev/)
+- [Dart Language Tour](https://dart.dev/guides/language/language-tour)
+- [Flutter SQLite Tutorial](https://flutter.dev/docs/cookbook/persistence/sqlite)
+- [Geolocator Plugin](https://pub.dev/packages/geolocator)
+- [Image Picker Plugin](https://pub.dev/packages/image_picker)
 
 # Future Work
 
-* Add cloud sync so entries can be backed up online and accessed across devices
-* Implement search and filtering for journal entries by date or location
-* Enhance UI with custom themes, animations, and improved layouts
-* Add sharing functionality to export entries to social media or email
-* Include audio recording as part of journal entries
+- Add cloud sync so entries can be backed up online and accessed across devices
+- Implement search and filtering for journal entries by date or location
+- Enhance UI with custom themes, animations, and improved layouts
+- Add sharing functionality to export entries to social media or email
+- Include audio recording as part of journal entries

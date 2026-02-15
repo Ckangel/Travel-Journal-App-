@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="proto2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/android/cmdline-tools/latest/lib/analytics-library/protos/src/main/proto/proto.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

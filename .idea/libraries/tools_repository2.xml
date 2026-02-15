@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="tools.repository2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/widgets/cmdline-tools/latest/lib/repository/tools.repository.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
