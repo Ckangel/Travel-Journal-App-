@@ -1,22 +1,7 @@
-import 'package:flutter/material.dart';
-import 'package:image_picker/image_picker.dart';
 import 'dart:io';
 
-File? _image;
-
-Future<void> _pickImage() async {
-  final pickedFile = await ImagePicker().pickImage(source: ImageSource.camera);
-  setState(() {
-    if (pickedFile != null) {
-      _image = File(pickedFile.path);
-    }
-  });
-}
-
-// Inside AddEntryScreen build:
-_image == null
-  ? Text("No image selected")
-  : Image.file(_image!)
+import 'package:flutter/material.dart';
+import 'package:image_picker/image_picker.dart';
 
 class AddEntryScreen extends StatefulWidget {
   @override
@@ -25,6 +10,16 @@ class AddEntryScreen extends StatefulWidget {
 
 class _AddEntryScreenState extends State<AddEntryScreen> {
   final _controller = TextEditingController();
+  File? _image;
+
+  Future<void> _pickImage() async {
+    final pickedFile = await ImagePicker().pickImage(source: ImageSource.camera);
+    setState(() {
+      if (pickedFile != null) {
+        _image = File(pickedFile.path);
+      }
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -39,11 +34,11 @@ class _AddEntryScreenState extends State<AddEntryScreen> {
               decoration: InputDecoration(labelText: "Notes"),
             ),
             SizedBox(height: 20),
+            _image == null ? Text("No image selected") : Image.file(_image!),
+            SizedBox(height: 20),
             ElevatedButton(
               child: Text("Take Photo"),
-              onPressed: () {
-                // Camera integration will go here
-              },
+              onPressed: _pickImage,
             ),
             ElevatedButton(
               child: Text("Save Entry"),

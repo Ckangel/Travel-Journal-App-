@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "Live Preview",
+			"workspacePath": "c:\\CODES\\Travel-Journal-App-",
+			"problemMatcher": [
+				"$dart-build_runner"
+			],
+			"label": "Live Preview: Run Server",
+			"isBackground": true
+		}
+	]
+}
