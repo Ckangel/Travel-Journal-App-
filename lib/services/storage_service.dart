@@ -1,4 +1,4 @@
-import 'package:sqflite/sqflite.dart';
+// import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 
 class StorageService {
@@ -14,7 +14,7 @@ class StorageService {
     final dbPath = await getDatabasesPath();
     final path = join(dbPath, 'travel_journal.db');
 
-    return await openDatabase(
+    // return await openDatabase(
       path,
       version: 1,
       onCreate: (db, version) async {

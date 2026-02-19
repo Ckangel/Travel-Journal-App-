@@ -26,17 +26,17 @@ class DetailEntryScreen extends StatelessWidget {
             SizedBox(height: 20),
             Text(
               entry['note'] ?? 'No note available',
-              style: Theme.of(context).textTheme.headline6,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
             SizedBox(height: 10),
             Text(
               'Date: ${entry['createdAt']}',
-              style: Theme.of(context).textTheme.subtitle1,
+              style: Theme.of(context).textTheme.bodyLarge,
             ),
             SizedBox(height: 10),
             Text(
               'Location: (Lat: ${entry['latitude']}, Lng: ${entry['longitude']})',
-               style: Theme.of(context).textTheme.subtitle1,
+               style: Theme.of(context).textTheme.bodyLarge,
             ),
           ],
         ),
