@@ -6,7 +6,7 @@ To use the app, open the Home Screen to view your list of journal entries. Tap t
 
 The purpose of creating this app is to strengthen my skills in mobile development by learning Flutter and Dart, while also practicing integration with device components (camera, location services) and persistent storage. This project demonstrates how to build a cross-platform app with multiple screens, interactive features, and a smooth user experience.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://screenrec.com/share/FXHwBILPVO)
 
 # Development Environment
 
